@@ -1,6 +1,8 @@
 # codeless-data-science-fundamental-2023-FTU-x-UMK
 Codeless Data Science Fundamental 2023 FTU x UMK
+
 Analysis of Receiving Zakat According to the Type of Zakat from 2012 to 2019 using KNIME
+
 AHAMD FAEZ BIN ROSLEE
 
 

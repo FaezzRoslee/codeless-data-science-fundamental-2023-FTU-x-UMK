@@ -66,3 +66,6 @@ Visualization Tools: Utilize KNIME's built-in data visualization tools to create
 Comparative Visuals: Generate comparative visuals to illustrate the differences and similarities between zakat padi, zakat fitrah, zakat wang simpanan, zakat pendapatan, zakat saham, zakat perniagaan, zakat emas/perak, zakat harta, zakat qadha, zakat pertanian, and zakat ternakan in terms of receiving.
 
 Experimental Result
+
+![Screenshot (605)](https://github.com/FaezzRoslee/codeless-data-science-fundamental-2023-FTU-x-UMK/assets/93921017/1fd671ec-26fb-46d3-bbee-0084c23e84e5)
+

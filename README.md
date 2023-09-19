@@ -22,16 +22,27 @@ One of the bases of Islam is zakat. Every Muslim who is financially secure is re
 Paying zakat is intended to cleanse wealth. Therefore, those Muslims who are wealthy must donate a small sum, or 2.5% of their income, to the needy. Wealthy individuals have a responsibility to aid the underprivileged society in whatever manner they can. Zakat is a requirement, not a free act of kindness. Zakat is a yearly tax that Muslims pay to cleanse their wealth and ask Allah for blessings.
 Zakat must be paid on any extra cash in your pocket.
 This consists of: 
+
 i.	Zakat Padi
+
 ii.	Zakat Fitrah
+
 iii. Zakat Wang Simpanan
+
 iv.	Zakat Pendapatan
+
 v.	Zakat Saham
+
 vi.	Zakat Perniagaan
+
 vii.	Zakat Emas/Perak
+
 viii.	Zakat Harta
+
 ix.	Zakat Qadha
+
 x.	Zakat Pertanian
+
 xi.	Zakat Ternakan
 
 

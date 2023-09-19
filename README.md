@@ -5,14 +5,19 @@ AHAMD FAEZ BIN ROSLEE
 
 
 Abstract
+
 This research study uses KNIME analytics to analyze the dynamics and patterns of receiving zakat from 2012 to 2019. The study uses KNIME's data analytic tools to examine eligibility requirements, distribution patterns, and changing trends. It groups beneficiaries by the type of zakat they received zakat padi, zakat fitrah, zakat wang simpanan, zakat pendapatan, zakat saham, zakat perniagaan, zakat emas/perak, zakat harta, zakat qadha, zakat pertanian, and zakat ternakan. The study also uses KNIME's visual analytics capabilities to illustrate variations in Zakat on receiving patterns. The findings provide an understanding of Zakat receiving and policymakers to maximize the effectiveness of Zakat donations. The study highlights KNIME's potential as a flexible tool for data-driven research in religious charity and social welfare. 
 
 
 Introduction
+
 One of the bases of Islam is zakat. Every Muslim who is financially secure is required to give zakat to the people who in need. Every Muslim should pay zakat as a form of prayer to assist those in need Muslims. Zakat is frequently referenced in the Quran. What Does zakat mean and what does it mean in Islam? 
+
 “And be steadfast in prayer and regular in charity: And whatever good ye send forth for your souls before you, ye shall find it with Allah” (Qur’an 2:110)
+
 Paying zakat is intended to cleanse wealth. Therefore, those Muslims who are wealthy must donate a small sum, or 2.5% of their income, to the needy. Wealthy individuals have a responsibility to aid the underprivileged society in whatever manner they can. Zakat is a requirement, not a free act of kindness. Zakat is a yearly tax that Muslims pay to cleanse their wealth and ask Allah for blessings.
-Zakat must be paid on any extra cash in your pocket. This consists of: 
+Zakat must be paid on any extra cash in your pocket.
+This consists of: 
 i.	Zakat Padi
 ii.	Zakat Fitrah
 iii.	Zakat Wang Simpanan

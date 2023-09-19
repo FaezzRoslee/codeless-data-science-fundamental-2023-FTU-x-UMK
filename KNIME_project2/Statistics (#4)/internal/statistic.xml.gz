@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="statistic.xml.gz">
+    <config key="spec">
+        <entry key="spec_name" type="xstring" value="default"/>
+        <entry key="number_columns" type="xint" value="3"/>
+        <config key="column_spec_0">
+            <entry key="column_name" type="xstring" value="TAHUN"/>
+            <config key="element_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="column_type">
+                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+            </config>
+            <config key="column_domain">
+                <config key="lower_bound">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                    <config key="org.knime.core.data.def.IntCell">
+                        <entry key="IntCell" type="xint" value="2012"/>
+                    </config>
+                </config>
+                <config key="upper_bound">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                    <config key="org.knime.core.data.def.IntCell">
+                        <entry key="IntCell" type="xint" value="2019"/>
+                    </config>
+                </config>
+            </config>
+            <config key="column_properties"/>
+            <config key="meta_data"/>
+        </config>
+        <config key="column_spec_1">
+            <entry key="column_name" type="xstring" value="JENIS ZAKAT"/>
+            <config key="element_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="column_type">
+                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+            </config>
+            <config key="column_domain">
+                <config key="possible_values">
+                    <entry key="array-size" type="xint" value="12"/>
+                    <config key="0">
+                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                        <config key="org.knime.core.data.def.StringCell">
+                            <entry key="StringCell" type="xstring" value="Zakat Padi"/>
+                        </config>
+                    </config>
+                    <config key="1">
+                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                        <config key="org.knime.core.data.def.StringCell">
+                            <entry key="StringCell" type="xstring" value="Zakat Fitrah"/>
+                        </config>
+                    </config>
+                    <config key="2">
+                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                        <config key="org.knime.core.data.def.StringCell">
+                            <entry key="StringCell" type="xstring" value="Zakat Wang Simpanan"/>
+                        </config>
+                    </config>
+                    <config key="3">
+                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                        <config key="org.knime.core.data.def.StringCell">
+                            <entry key="StringCell" type="xstring" value="Zakat Pendapatan"/>
+                        </config>
+                    </config>
+                    <config key="4">
+                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                        <config key="org.knime.core.data.def.StringCell">
+                            <entry key="StringCell" type="xstring" value="Zakat Saham"/>
+                        </config>
+                    </config>
+                    <config key="5">
+                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                        <config key="org.knime.core.data.def.StringCell">
+                            <entry key="StringCell" type="xstring" value="Zakat Perniagaan"/>
+                        </config>
+                    </config>
+                    <config key="6">
+                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                        <config key="org.knime.core.data.def.StringCell">
+                            <entry key="StringCell" type="xstring" value="Zakat Emas/Perak"/>
+                        </config>
+                    </config>
+                    <config key="7">
+                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                        <config key="org.knime.core.data.def.StringCell">
+                            <entry key="StringCell" type="xstring" value="Zakat Harta"/>
+                        </config>
+                    </config>
+                    <config key="8">
+                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                        <config key="org.knime.core.data.def.StringCell">
+                            <entry key="StringCell" type="xstring" value="Zakat Qadha"/>
+                        </config>
+                    </config>
+                    <config key="9">
+                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                        <config key="org.knime.core.data.def.StringCell">
+                            <entry key="StringCell" type="xstring" value="Zakat Pertanian"/>
+                        </config>
+                    </config>
+                    <config key="10">
+                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                        <config key="org.knime.core.data.def.StringCell">
+                            <entry key="StringCell" type="xstring" value="Zakat Ternakan"/>
+                        </config>
+                    </config>
+                    <config key="11">
+                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                        <config key="org.knime.core.data.def.StringCell">
+                            <entry key="StringCell" type="xstring" value="Jumlah tahunan"/>
+                        </config>
+                    </config>
+                </config>
+            </config>
+            <config key="column_properties"/>
+            <config key="color_handler">
+                <entry key="color_model_class" type="xstring" value="org.knime.core.data.property.ColorModelNominal"/>
+                <config key="color_model">
+                    <config key="keys">
+                        <config key="Jumlah tahunan">
+                            <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            <config key="org.knime.core.data.def.StringCell">
+                                <entry key="StringCell" type="xstring" value="Jumlah tahunan"/>
+                            </config>
+                        </config>
+                        <config key="Zakat Emas/Perak">
+                            <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            <config key="org.knime.core.data.def.StringCell">
+                                <entry key="StringCell" type="xstring" value="Zakat Emas/Perak"/>
+                            </config>
+                        </config>
+                        <config key="Zakat Fitrah">
+                            <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            <config key="org.knime.core.data.def.StringCell">
+                                <entry key="StringCell" type="xstring" value="Zakat Fitrah"/>
+                            </config>
+                        </config>
+                        <config key="Zakat Harta">
+                            <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            <config key="org.knime.core.data.def.StringCell">
+                                <entry key="StringCell" type="xstring" value="Zakat Harta"/>
+                            </config>
+                        </config>
+                        <config key="Zakat Padi">
+                            <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            <config key="org.knime.core.data.def.StringCell">
+                                <entry key="StringCell" type="xstring" value="Zakat Padi"/>
+                            </config>
+                        </config>
+                        <config key="Zakat Pendapatan">
+                            <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            <config key="org.knime.core.data.def.StringCell">
+                                <entry key="StringCell" type="xstring" value="Zakat Pendapatan"/>
+                            </config>
+                        </config>
+                        <config key="Zakat Perniagaan">
+                            <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            <config key="org.knime.core.data.def.StringCell">
+                                <entry key="StringCell" type="xstring" value="Zakat Perniagaan"/>
+                            </config>
+                        </config>
+                        <config key="Zakat Pertanian">
+                            <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            <config key="org.knime.core.data.def.StringCell">
+                                <entry key="StringCell" type="xstring" value="Zakat Pertanian"/>
+                            </config>
+                        </config>
+                        <config key="Zakat Qadha">
+                            <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            <config key="org.knime.core.data.def.StringCell">
+                                <entry key="StringCell" type="xstring" value="Zakat Qadha"/>
+                            </config>
+                        </config>
+                        <config key="Zakat Saham">
+                            <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            <config key="org.knime.core.data.def.StringCell">
+                                <entry key="StringCell" type="xstring" value="Zakat Saham"/>
+                            </config>
+                        </config>
+                        <config key="Zakat Ternakan">
+                            <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            <config key="org.knime.core.data.def.StringCell">
+                                <entry key="StringCell" type="xstring" value="Zakat Ternakan"/>
+                            </config>
+                        </config>
+                        <config key="Zakat Wang Simpanan">
+                            <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            <config key="org.knime.core.data.def.StringCell">
+                                <entry key="StringCell" type="xstring" value="Zakat Wang Simpanan"/>
+                            </config>
+                        </config>
+                    </config>
+                    <entry key="Jumlah tahunan" type="xint" value="-13393876"/>
+                    <entry key="Zakat Emas/Perak" type="xint" value="-1893860"/>
+                    <entry key="Zakat Fitrah" type="xint" value="-5154520"/>
+                    <entry key="Zakat Harta" type="xint" value="-9814630"/>
+                    <entry key="Zakat Padi" type="xint" value="-14714700"/>
+                    <entry key="Zakat Pendapatan" type="xint" value="-33024"/>
+                    <entry key="Zakat Perniagaan" type="xint" value="-5054582"/>
+                    <entry key="Zakat Pertanian" type="xint" value="-147601"/>
+                    <entry key="Zakat Qadha" type="xint" value="-288103"/>
+                    <entry key="Zakat Saham" type="xint" value="-3493162"/>
+                    <entry key="Zakat Ternakan" type="xint" value="-5845277"/>
+                    <entry key="Zakat Wang Simpanan" type="xint" value="-103"/>
+                </config>
+            </config>
+            <config key="meta_data"/>
+        </config>
+        <config key="column_spec_2">
+            <entry key="column_name" type="xstring" value="AMAUN (RM)"/>
+            <config key="element_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="column_type">
+                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+            </config>
+            <config key="column_domain">
+                <config key="lower_bound">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <config key="org.knime.core.data.def.DoubleCell">
+                        <entry key="DoubleCell" type="xdouble" value="0.0"/>
+                    </config>
+                </config>
+                <config key="upper_bound">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <config key="org.knime.core.data.def.DoubleCell">
+                        <entry key="DoubleCell" type="xdouble" value="1.852290918E8"/>
+                    </config>
+                </config>
+            </config>
+            <config key="column_properties"/>
+            <config key="meta_data"/>
+        </config>
+    </config>
+    <config key="minimumCells">
+        <entry key="array-size" type="xint" value="3"/>
+        <config key="0">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+            <config key="org.knime.core.data.def.IntCell">
+                <entry key="IntCell" type="xint" value="2012"/>
+            </config>
+        </config>
+        <config key="1">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.MissingCell"/>
+            <config key="org.knime.core.data.MissingCell"/>
+        </config>
+        <config key="2">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+            <config key="org.knime.core.data.def.DoubleCell">
+                <entry key="DoubleCell" type="xdouble" value="0.0"/>
+            </config>
+        </config>
+    </config>
+    <config key="maximumCells">
+        <entry key="array-size" type="xint" value="3"/>
+        <config key="0">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+            <config key="org.knime.core.data.def.IntCell">
+                <entry key="IntCell" type="xint" value="2019"/>
+            </config>
+        </config>
+        <config key="1">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.MissingCell"/>
+            <config key="org.knime.core.data.MissingCell"/>
+        </config>
+        <config key="2">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+            <config key="org.knime.core.data.def.DoubleCell">
+                <entry key="DoubleCell" type="xdouble" value="1.852290918E8"/>
+            </config>
+        </config>
+    </config>
+    <config key="minimumNonInf">
+        <entry key="array-size" type="xint" value="3"/>
+        <config key="0">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+            <config key="org.knime.core.data.def.IntCell">
+                <entry key="IntCell" type="xint" value="2012"/>
+            </config>
+        </config>
+        <config key="1">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.MissingCell"/>
+            <config key="org.knime.core.data.MissingCell"/>
+        </config>
+        <config key="2">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+            <config key="org.knime.core.data.def.DoubleCell">
+                <entry key="DoubleCell" type="xdouble" value="0.0"/>
+            </config>
+        </config>
+    </config>
+    <config key="maximumNonInf">
+        <entry key="array-size" type="xint" value="3"/>
+        <config key="0">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+            <config key="org.knime.core.data.def.IntCell">
+                <entry key="IntCell" type="xint" value="2019"/>
+            </config>
+        </config>
+        <config key="1">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.MissingCell"/>
+            <config key="org.knime.core.data.MissingCell"/>
+        </config>
+        <config key="2">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+            <config key="org.knime.core.data.def.DoubleCell">
+                <entry key="DoubleCell" type="xdouble" value="1.852290918E8"/>
+            </config>
+        </config>
+    </config>
+    <config key="mean">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="2015.4999999999995"/>
+        <entry key="1" type="xdouble" value="NaN"/>
+        <entry key="2" type="xdouble" value="2.43553756734375E7"/>
+    </config>
+    <config key="variance">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="5.305263157895534"/>
+        <entry key="1" type="xdouble" value="NaN"/>
+        <entry key="2" type="xdouble" value="2.0930204171215822E15"/>
+    </config>
+    <config key="median">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="2015.5"/>
+        <entry key="1" type="xdouble" value="NaN"/>
+        <entry key="2" type="xdouble" value="2687726.0"/>
+    </config>
+    <config key="missings">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xint" value="0"/>
+        <entry key="1" type="xint" value="0"/>
+        <entry key="2" type="xint" value="0"/>
+    </config>
+    <config key="nans">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xint" value="0"/>
+        <entry key="1" type="xint" value="0"/>
+        <entry key="2" type="xint" value="0"/>
+    </config>
+    <config key="posInfs">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xint" value="0"/>
+        <entry key="1" type="xint" value="0"/>
+        <entry key="2" type="xint" value="0"/>
+    </config>
+    <config key="negInfs">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xint" value="0"/>
+        <entry key="1" type="xint" value="0"/>
+        <entry key="2" type="xint" value="0"/>
+    </config>
+    <config key="sums">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="193487.99999999994"/>
+        <entry key="1" type="xdouble" value="0.0"/>
+        <entry key="2" type="xdouble" value="2.3381160646499996E9"/>
+    </config>
+    <config key="skewness">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="-1.2348852840311666E-13"/>
+        <entry key="1" type="xdouble" value="NaN"/>
+        <entry key="2" type="xdouble" value="2.1830071885597597"/>
+    </config>
+    <config key="kurtosis">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="-1.2398819056333816"/>
+        <entry key="1" type="xdouble" value="NaN"/>
+        <entry key="2" type="xdouble" value="3.740064481764926"/>
+    </config>
+    <entry key="row_count" type="xint" value="96"/>
+    <config key="JENIS ZAKAT">
+        <config key="Zakat Padi">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Zakat Padi"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="8"/>
+        </config>
+        <config key="Zakat Fitrah">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Zakat Fitrah"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="8"/>
+        </config>
+        <config key="Zakat Wang Simpanan">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Zakat Wang Simpanan"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="8"/>
+        </config>
+        <config key="Zakat Pendapatan">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Zakat Pendapatan"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="8"/>
+        </config>
+        <config key="Zakat Saham">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Zakat Saham"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="8"/>
+        </config>
+        <config key="Zakat Perniagaan">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Zakat Perniagaan"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="8"/>
+        </config>
+        <config key="Zakat Emas/Perak">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Zakat Emas/Perak"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="8"/>
+        </config>
+        <config key="Zakat Harta">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Zakat Harta"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="8"/>
+        </config>
+        <config key="Zakat Qadha">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Zakat Qadha"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="8"/>
+        </config>
+        <config key="Zakat Pertanian">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Zakat Pertanian"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="8"/>
+        </config>
+        <config key="Zakat Ternakan">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Zakat Ternakan"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="8"/>
+        </config>
+        <config key="Jumlah tahunan">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Jumlah tahunan"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="8"/>
+        </config>
+    </config>
+</config>

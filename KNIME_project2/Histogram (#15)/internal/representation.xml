@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="viewRepresentation">
+    <entry key="jsNamespace" type="xstring" value="knimeHistogram"/>
+    <config key="jsCode">
+        <entry key="array-size" type="xint" value="1"/>
+        <entry key="0" type="xstring" value="/* global knimeGroupedBarChart:false */%%00010window.knimeHistogram = (function () {%%00010%%00010    var histogram = {};%%00010    var _representation, _value;%%00010%%00010    histogram.init = function (representation, value) {%%00010        _value = value;%%00010        _representation = representation;%%00010        var binningResult = _representation.inObjects[0];%%00010        var binColName = binningResult.binnedColumn;%%00010        var orgColName = _representation.options.cat;%%00010        _representation.inObjects[0] = binningResult.groups;%%00010        _representation.options.cat = binColName;%%00010        _representation.isHistogram = true;%%00010        var optMethod = _representation.options.aggr;%%00010        if (optMethod === 'Occurence\u00A0Count') {%%00010            _representation.inObjects[0].table.spec.colNames[1] = orgColName;%%00010        }%%00010        knimeGroupedBarChart.init(_representation, _value);%%00010    };%%00010%%00010    histogram.validate = function () {%%00010        return knimeGroupedBarChart.validate();%%00010    };%%00010%%00010    histogram.getComponentValue = function () {%%00010        return knimeGroupedBarChart.getComponentValue();%%00010    };%%00010%%00010    histogram.getSVG = function () {%%00010        return knimeGroupedBarChart.getSVG();%%00010    };%%00010%%00010    return histogram;%%00010%%00010})();%%00010"/>
+    </config>
+    <config key="cssCode">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="jsDependencies">
+        <entry key="numSettings" type="xint" value="3"/>
+        <config key="dependency_0">
+            <entry key="name" type="xstring" value="barChart"/>
+            <entry key="path" type="xstring" value="org/knime/dynamic/js/base/barChart/groupedbarchart.js"/>
+            <entry key="usesDefine" type="xboolean" value="false"/>
+            <entry key="exports" type="xstring" isnull="true" value=""/>
+            <config key="dependencies">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="NVD3_1.8.6"/>
+            </config>
+            <entry key="local" type="xboolean" value="true"/>
+        </config>
+        <config key="dependency_1">
+            <entry key="name" type="xstring" value="NVD3_1.8.6"/>
+            <entry key="path" type="xstring" value="js-lib/nvd3/1.8.6/nv.d3.min.js"/>
+            <entry key="usesDefine" type="xboolean" value="false"/>
+            <entry key="exports" type="xstring" isnull="true" value=""/>
+            <config key="dependencies">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="D3_3.5.5"/>
+            </config>
+            <entry key="local" type="xboolean" value="true"/>
+        </config>
+        <config key="dependency_2">
+            <entry key="name" type="xstring" value="D3_3.5.5"/>
+            <entry key="path" type="xstring" value="js-lib/d3/d3.v3_5_5.min.js"/>
+            <entry key="usesDefine" type="xboolean" value="false"/>
+            <entry key="exports" type="xstring" isnull="true" value=""/>
+            <config key="dependencies">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="local" type="xboolean" value="true"/>
+        </config>
+    </config>
+    <config key="cssDependencies">
+        <entry key="array-size" type="xint" value="2"/>
+        <entry key="0" type="xstring" value="js-lib/nvd3/1.8.6/nv.d3.min.css"/>
+        <entry key="1" type="xstring" value="org/knime/dynamic/js/base/barChart/groupedbarchart.css"/>
+    </config>
+    <entry key="new" type="xboolean" value="false"/>
+    <entry key="inView" type="xboolean" value="true"/>
+    <config key="tableIds">
+        <entry key="array-size" type="xint" value="1"/>
+        <entry key="0" type="xstring" value="dd405913-7d41-438e-a07f-3e1575c329af"/>
+    </config>
+    <config key="variables">
+        <entry key="numSettings" type="xint" value="1"/>
+        <entry key="mapClass" type="xstring" value="string"/>
+        <entry key="key_0" type="xstring" value="knime.workspace"/>
+        <entry key="class_0" type="xstring" value="java.lang.String"/>
+        <entry key="value_0" type="xstring" value="C:\Users\user\knime-workspace"/>
+    </config>
+    <config key="binaryFiles">
+        <entry key="numSettings" type="xint" value="0"/>
+        <entry key="mapClass" type="xstring" value="string"/>
+    </config>
+    <config key="options">
+        <entry key="numSettings" type="xint" value="21"/>
+        <entry key="mapClass" type="xstring" value="object"/>
+        <entry key="key_0" type="xstring" value="displayFullscreenButton"/>
+        <entry key="class_0" type="xstring" value="java.lang.Boolean"/>
+        <entry key="value_0" type="xboolean" value="true"/>
+        <entry key="key_1" type="xstring" value="displayClearSelectionButton"/>
+        <entry key="class_1" type="xstring" value="java.lang.Boolean"/>
+        <entry key="value_1" type="xboolean" value="true"/>
+        <entry key="key_2" type="xstring" value="svg"/>
+        <entry key="class_2" type="xstring" value="org.knime.dynamic.js.SettingsModelSVGOptions$JSONSVGOptions"/>
+        <config key="value_2">
+            <entry key="width" type="xint" value="800"/>
+            <entry key="height" type="xint" value="600"/>
+            <entry key="fullscreen" type="xboolean" value="true"/>
+        </config>
+        <entry key="key_3" type="xstring" value="legend"/>
+        <entry key="class_3" type="xstring" value="java.lang.Boolean"/>
+        <entry key="value_3" type="xboolean" value="true"/>
+        <entry key="key_4" type="xstring" value="enableHorizontalToggle"/>
+        <entry key="class_4" type="xstring" value="java.lang.Boolean"/>
+        <entry key="value_4" type="xboolean" value="true"/>
+        <entry key="key_5" type="xstring" value="freq"/>
+        <entry key="class_5" type="xstring" value="[Ljava.lang.String;"/>
+        <config key="value_5">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="AMAUN (RM)"/>
+        </config>
+        <entry key="key_6" type="xstring" value="tooltip"/>
+        <entry key="class_6" type="xstring" value="java.lang.Boolean"/>
+        <entry key="value_6" type="xboolean" value="true"/>
+        <entry key="key_7" type="xstring" value="enableTitleEdit"/>
+        <entry key="class_7" type="xstring" value="java.lang.Boolean"/>
+        <entry key="value_7" type="xboolean" value="true"/>
+        <entry key="key_8" type="xstring" value="enableSelection"/>
+        <entry key="class_8" type="xstring" value="java.lang.Boolean"/>
+        <entry key="value_8" type="xboolean" value="true"/>
+        <entry key="key_9" type="xstring" value="enableSwitchMissValCat"/>
+        <entry key="class_9" type="xstring" value="java.lang.Boolean"/>
+        <entry key="value_9" type="xboolean" value="true"/>
+        <entry key="key_10" type="xstring" value="enableStackedEdit"/>
+        <entry key="class_10" type="xstring" value="java.lang.Boolean"/>
+        <entry key="value_10" type="xboolean" value="true"/>
+        <entry key="key_11" type="xstring" value="enableAxisEdit"/>
+        <entry key="class_11" type="xstring" value="java.lang.Boolean"/>
+        <entry key="value_11" type="xboolean" value="true"/>
+        <entry key="key_12" type="xstring" value="processInMemory"/>
+        <entry key="class_12" type="xstring" value="java.lang.Boolean"/>
+        <entry key="value_12" type="xboolean" value="true"/>
+        <entry key="key_13" type="xstring" value="reportOnMissingValues"/>
+        <entry key="class_13" type="xstring" value="java.lang.Boolean"/>
+        <entry key="value_13" type="xboolean" value="true"/>
+        <entry key="key_14" type="xstring" value="cat"/>
+        <entry key="class_14" type="xstring" value="java.lang.String"/>
+        <entry key="value_14" type="xstring" value="TAHUN"/>
+        <entry key="key_15" type="xstring" value="enableViewControls"/>
+        <entry key="class_15" type="xstring" value="java.lang.Boolean"/>
+        <entry key="value_15" type="xboolean" value="true"/>
+        <entry key="key_16" type="xstring" value="showWarnings"/>
+        <entry key="class_16" type="xstring" value="java.lang.Boolean"/>
+        <entry key="value_16" type="xboolean" value="true"/>
+        <entry key="key_17" type="xstring" value="enableSubtitleEdit"/>
+        <entry key="class_17" type="xstring" value="java.lang.Boolean"/>
+        <entry key="value_17" type="xboolean" value="true"/>
+        <entry key="key_18" type="xstring" value="aggr"/>
+        <entry key="class_18" type="xstring" value="java.lang.String"/>
+        <entry key="value_18" type="xstring" value="Sum"/>
+        <entry key="key_19" type="xstring" value="bin_method"/>
+        <entry key="class_19" type="xstring" value="java.lang.String"/>
+        <entry key="value_19" type="xstring" value="Fixed number of bins"/>
+        <entry key="key_20" type="xstring" value="enableMaximumValue"/>
+        <entry key="class_20" type="xstring" value="java.lang.Boolean"/>
+        <entry key="value_20" type="xboolean" value="true"/>
+    </config>
+    <config key="inObjects">
+        <entry key="numSettings" type="xint" value="1"/>
+        <config key="inObject_0">
+            <entry key="className" type="xstring" value="org.knime.dynamic.js.base.grouped.BinningProcessor$BinningResult"/>
+            <entry key="jsonValue" type="xstring" value="{&quot;binnedColumn&quot;:&quot;TAHUN [Binned]&quot;,&quot;groups&quot;:{&quot;table&quot;:{&quot;@class&quot;:&quot;org.knime.js.core.JSONDataTable&quot;,&quot;rows&quot;:[{&quot;data&quot;:[&quot;2,012.7&quot;,2.4729372385E8],&quot;rowKey&quot;:&quot;Row0&quot;},{&quot;data&quot;:[&quot;2,014.1&quot;,1.44551368E8],&quot;rowKey&quot;:&quot;Row1&quot;},{&quot;data&quot;:[&quot;2,015.5&quot;,3.24609865E8],&quot;rowKey&quot;:&quot;Row2&quot;},{&quot;data&quot;:[&quot;2,016.9&quot;,1.79303841E8],&quot;rowKey&quot;:&quot;Row3&quot;},{&quot;data&quot;:[&quot;2,018.3&quot;,2.72136679E8],&quot;rowKey&quot;:&quot;Row4&quot;}],&quot;id&quot;:null,&quot;filtered&quot;:false,&quot;dataHash&quot;:null,&quot;fragment&quot;:false,&quot;fragmentFirstRowIndex&quot;:0,&quot;totalFilteredRows&quot;:0,&quot;spec&quot;:{&quot;@class&quot;:&quot;org.knime.js.core.JSONDataTableSpec&quot;,&quot;rowColorValues&quot;:[&quot;#404040&quot;,&quot;#404040&quot;,&quot;#404040&quot;,&quot;#404040&quot;,&quot;#404040&quot;],&quot;knimeTypes&quot;:[&quot;String&quot;,&quot;Number (double)&quot;],&quot;colTypes&quot;:[&quot;string&quot;,&quot;number&quot;],&quot;colorModels&quot;:[],&quot;possibleValues&quot;:[[&quot;2,012.7&quot;,&quot;2,014.1&quot;,&quot;2,015.5&quot;,&quot;2,016.9&quot;,&quot;2,018.3&quot;],null],&quot;filterIds&quot;:[null,null],&quot;numRows&quot;:5,&quot;containsMissingValues&quot;:[false,false],&quot;numColumns&quot;:2,&quot;colNames&quot;:[&quot;TAHUN [Binned]&quot;,&quot;AMAUN (RM)&quot;],&quot;minValues&quot;:[&quot;2,012.7&quot;,1.44551368E8],&quot;hiddenColumns&quot;:[],&quot;maxValues&quot;:[&quot;2,018.3&quot;,3.24609865E8],&quot;rowSizeValues&quot;:null,&quot;extensionTypes&quot;:[],&quot;numExtensions&quot;:0,&quot;extensionNames&quot;:[]},&quot;totalRows&quot;:0},&quot;translator&quot;:{&quot;mapping&quot;:{&quot;Row0&quot;:[&quot;Row16&quot;,&quot;Row15&quot;,&quot;Row14&quot;,&quot;Row13&quot;,&quot;Row12&quot;,&quot;Row22&quot;,&quot;Row10&quot;,&quot;Row21&quot;,&quot;Row20&quot;,&quot;Row0&quot;,&quot;Row1&quot;,&quot;Row19&quot;,&quot;Row18&quot;,&quot;Row17&quot;,&quot;Row8&quot;,&quot;Row9&quot;,&quot;Row6&quot;,&quot;Row7&quot;,&quot;Row4&quot;,&quot;Row5&quot;,&quot;Row2&quot;,&quot;Row3&quot;],&quot;Row1&quot;:[&quot;Row30&quot;,&quot;Row29&quot;,&quot;Row28&quot;,&quot;Row27&quot;,&quot;Row26&quot;,&quot;Row25&quot;,&quot;Row24&quot;,&quot;Row34&quot;,&quot;Row33&quot;,&quot;Row32&quot;,&quot;Row31&quot;],&quot;Row4&quot;:[&quot;Row74&quot;,&quot;Row85&quot;,&quot;Row73&quot;,&quot;Row84&quot;,&quot;Row72&quot;,&quot;Row94&quot;,&quot;Row82&quot;,&quot;Row93&quot;,&quot;Row81&quot;,&quot;Row92&quot;,&quot;Row80&quot;,&quot;Row91&quot;,&quot;Row90&quot;,&quot;Row79&quot;,&quot;Row78&quot;,&quot;Row89&quot;,&quot;Row77&quot;,&quot;Row88&quot;,&quot;Row76&quot;,&quot;Row87&quot;,&quot;Row75&quot;,&quot;Row86&quot;],&quot;Row2&quot;:[&quot;Row41&quot;,&quot;Row52&quot;,&quot;Row40&quot;,&quot;Row51&quot;,&quot;Row50&quot;,&quot;Row38&quot;,&quot;Row49&quot;,&quot;Row37&quot;,&quot;Row48&quot;,&quot;Row36&quot;,&quot;Row58&quot;,&quot;Row46&quot;,&quot;Row57&quot;,&quot;Row45&quot;,&quot;Row56&quot;,&quot;Row44&quot;,&quot;Row55&quot;,&quot;Row43&quot;,&quot;Row54&quot;,&quot;Row42&quot;,&quot;Row53&quot;,&quot;Row39&quot;],&quot;Row3&quot;:[&quot;Row63&quot;,&quot;Row62&quot;,&quot;Row61&quot;,&quot;Row60&quot;,&quot;Row70&quot;,&quot;Row69&quot;,&quot;Row68&quot;,&quot;Row67&quot;,&quot;Row66&quot;,&quot;Row65&quot;,&quot;Row64&quot;]},&quot;sourceID&quot;:null,&quot;targetIDs&quot;:null,&quot;forward&quot;:false},&quot;uuid&quot;:&quot;fd975a54-9221-4b7d-b125-39b1618f0976&quot;}}"/>
+        </config>
+    </config>
+    <entry key="warnMessage" type="xstring" value=""/>
+    <entry key="errorMessage" type="xstring" value=""/>
+</config>

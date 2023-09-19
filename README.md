@@ -29,19 +29,33 @@ xi.	Zakat Ternakan
 Methodology
 The following is the research methodology used in this work to analyze, using KNIME, the dynamics of receiving zakat based on the type of zakat from 2012 to 2019. Data collection, preparation, analysis, and visualization are all part of the methods used to understand the distribution trends and patterns related to zakat padi, zakat fitrah, zakat wang simpanan, zakat pendapatan, zakat saham, zakat perniagaan, zakat emas/perak, zakat harta, zakat qadha, zakat pertanian, and zakat ternakan.
 1. Data Collection:
+
 Data Sources: The data is from dataset https://www.data.gov.my/data/en_US/dataset/terimaan-zakat-mengikut-jenis-zakat-oleh-majlis-agama-islam-kelantan-maik-yang-telah-diaudit 
+
 Data Selection: Data specifically covering the years 2012 to 2019.
+
 Data Variables: Amount received, types of zakat, amount from 2012 to 2019, and the total of each year that MAIK received.
+
 2. Data Preprocessing:
+
 Data Cleaning: For data cleaning, node row filter is used to remove Jumlah Tahunan in the table due to the node for visualization become error.
+
 Data Transformation: For predicting the trend of zakat received, there has been transformation in the dataset. 
+
 3. Data Analysis using KNIME:
+
 Data Exploration: Perform initial data exploration to gain an understanding of the dataset's structure and characteristics. This includes summary statistics, data distribution, and identifying potential patterns.
+
 Categorization: Categorize the data based on the type of zakat, distinguishing between zakat padi, zakat fitrah, zakat wang simpanan, zakat pendapatan, zakat saham, zakat perniagaan, zakat emas/perak, zakat harta, zakat qadha, zakat pertanian, and zakat ternakan.
+
 Eligibility Criteria Analysis: The requirements for each type of zakat, identifying any changes or trends during the research period.
+
 Distribution Patterns: Examine the receiving patterns of zakat, including the amount received by the type of zakat, years, and total of the amount received by each year.
+
 4. Data Visualization:
+
 Visualization Tools: Utilize KNIME's built-in data visualization tools to create pie chart, histogram, table view, and line plot.
+
 Comparative Visuals: Generate comparative visuals to illustrate the differences and similarities between zakat padi, zakat fitrah, zakat wang simpanan, zakat pendapatan, zakat saham, zakat perniagaan, zakat emas/perak, zakat harta, zakat qadha, zakat pertanian, and zakat ternakan in terms of receiving.
 
 Experimental Result

@@ -7,11 +7,13 @@ AHAMD FAEZ BIN ROSLEE
 
 
 Abstract
+_____________________________________________________________________________________________________________________________________________
 
 This research study uses KNIME analytics to analyze the dynamics and patterns of receiving zakat from 2012 to 2019. The study uses KNIME's data analytic tools to examine eligibility requirements, distribution patterns, and changing trends. It groups beneficiaries by the type of zakat they received zakat padi, zakat fitrah, zakat wang simpanan, zakat pendapatan, zakat saham, zakat perniagaan, zakat emas/perak, zakat harta, zakat qadha, zakat pertanian, and zakat ternakan. The study also uses KNIME's visual analytics capabilities to illustrate variations in Zakat on receiving patterns. The findings provide an understanding of Zakat receiving and policymakers to maximize the effectiveness of Zakat donations. The study highlights KNIME's potential as a flexible tool for data-driven research in religious charity and social welfare. 
 
 
 Introduction
+_____________________________________________________________________________________________________________________________________________
 
 One of the bases of Islam is zakat. Every Muslim who is financially secure is required to give zakat to the people who in need. Every Muslim should pay zakat as a form of prayer to assist those in need Muslims. Zakat is frequently referenced in the Quran. What Does zakat mean and what does it mean in Islam? 
 
@@ -22,7 +24,7 @@ Zakat must be paid on any extra cash in your pocket.
 This consists of: 
 i.	Zakat Padi
 ii.	Zakat Fitrah
-iii.	Zakat Wang Simpanan
+iii. Zakat Wang Simpanan
 iv.	Zakat Pendapatan
 v.	Zakat Saham
 vi.	Zakat Perniagaan
@@ -34,6 +36,8 @@ xi.	Zakat Ternakan
 
 
 Methodology
+________________________________________________________________________________________________________________________________________
+
 The following is the research methodology used in this work to analyze, using KNIME, the dynamics of receiving zakat based on the type of zakat from 2012 to 2019. Data collection, preparation, analysis, and visualization are all part of the methods used to understand the distribution trends and patterns related to zakat padi, zakat fitrah, zakat wang simpanan, zakat pendapatan, zakat saham, zakat perniagaan, zakat emas/perak, zakat harta, zakat qadha, zakat pertanian, and zakat ternakan.
 1. Data Collection:
 
@@ -65,7 +69,19 @@ Visualization Tools: Utilize KNIME's built-in data visualization tools to create
 
 Comparative Visuals: Generate comparative visuals to illustrate the differences and similarities between zakat padi, zakat fitrah, zakat wang simpanan, zakat pendapatan, zakat saham, zakat perniagaan, zakat emas/perak, zakat harta, zakat qadha, zakat pertanian, and zakat ternakan in terms of receiving.
 
+![Screenshot (603)](https://github.com/FaezzRoslee/codeless-data-science-fundamental-2023-FTU-x-UMK/assets/93921017/6a952fc2-d34d-4e92-b64c-2439e7667397)
+
+
+![Screenshot (604)](https://github.com/FaezzRoslee/codeless-data-science-fundamental-2023-FTU-x-UMK/assets/93921017/3e7c2c28-ab26-4d37-bf57-fa3030af13df)
+
+
 Experimental Result
+______________________________________________________________________________________________________________________________________
 
 ![Screenshot (605)](https://github.com/FaezzRoslee/codeless-data-science-fundamental-2023-FTU-x-UMK/assets/93921017/1fd671ec-26fb-46d3-bbee-0084c23e84e5)
+
+Conclusion
+_______________________________________________________________________________________________________________________________________
+
+This thorough research, which focuses on the years 2012 to 2019, looked at the dynamics of zakat receipt based on the form of zakat. We have benefited from KNIME's analytical capabilities by learning more about the patterns, eligibility requirements, and temporal trends related to the following zakats: zakat padi, zakat fitrah, zakat wang simpanan, zakat pendapatan, zakat saham, zakat perniagaan, zakat emas/perak, zakat harta, zakat qadha, zakat pertanian, and zakat ternakan.
 

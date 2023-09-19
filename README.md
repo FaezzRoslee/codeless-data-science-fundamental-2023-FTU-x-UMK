@@ -2,8 +2,12 @@
 Codeless Data Science Fundamental 2023 FTU x UMK
 Analysis of Receiving Zakat According to the Type of Zakat from 2012 to 2019 using KNIME
 AHAMD FAEZ BIN ROSLEE
+
+
 Abstract
-This research study uses KNIME analytics to analyze the dynamics and patterns of receiving zakat from 2012 to 2019. The study uses KNIME's data analytic tools to examine eligibility requirements, distribution patterns, and changing trends. It groups beneficiaries by the type of zakat they received zakat padi, zakat fitrah, zakat wang simpanan, zakat pendapatan, zakat saham, zakat perniagaan, zakat emas/perak, zakat harta, zakat qadha, zakat pertanian, and zakat ternakan. The study also uses KNIME's visual analytics capabilities to illustrate variations in Zakat on receiving patterns. The findings provide an understanding of Zakat receiving and policymakers to maximize the effectiveness of Zakat donations. The study highlights KNIME's potential as a flexible tool for data-driven research in religious charity and social welfare.
+This research study uses KNIME analytics to analyze the dynamics and patterns of receiving zakat from 2012 to 2019. The study uses KNIME's data analytic tools to examine eligibility requirements, distribution patterns, and changing trends. It groups beneficiaries by the type of zakat they received zakat padi, zakat fitrah, zakat wang simpanan, zakat pendapatan, zakat saham, zakat perniagaan, zakat emas/perak, zakat harta, zakat qadha, zakat pertanian, and zakat ternakan. The study also uses KNIME's visual analytics capabilities to illustrate variations in Zakat on receiving patterns. The findings provide an understanding of Zakat receiving and policymakers to maximize the effectiveness of Zakat donations. The study highlights KNIME's potential as a flexible tool for data-driven research in religious charity and social welfare. 
+
+
 Introduction
 One of the bases of Islam is zakat. Every Muslim who is financially secure is required to give zakat to the people who in need. Every Muslim should pay zakat as a form of prayer to assist those in need Muslims. Zakat is frequently referenced in the Quran. What Does zakat mean and what does it mean in Islam? 
 “And be steadfast in prayer and regular in charity: And whatever good ye send forth for your souls before you, ye shall find it with Allah” (Qur’an 2:110)
@@ -20,6 +24,8 @@ viii.	Zakat Harta
 ix.	Zakat Qadha
 x.	Zakat Pertanian
 xi.	Zakat Ternakan
+
+
 Methodology
 The following is the research methodology used in this work to analyze, using KNIME, the dynamics of receiving zakat based on the type of zakat from 2012 to 2019. Data collection, preparation, analysis, and visualization are all part of the methods used to understand the distribution trends and patterns related to zakat padi, zakat fitrah, zakat wang simpanan, zakat pendapatan, zakat saham, zakat perniagaan, zakat emas/perak, zakat harta, zakat qadha, zakat pertanian, and zakat ternakan.
 1. Data Collection:
